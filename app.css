@@ -1,0 +1,586 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #958b8b;
+    
+}
+h1 {
+    color: purple; /* Change the color to purple */
+    text-shadow: 2px 2px 5px #ccc; /* Add a text shadow */
+    text-transform: uppercase; /* Transform the text to uppercase */
+    font-size: 3em; /* Increase the font size */
+}
+
+h1, h2 {
+    text-align: center;
+}
+h5 {
+    color: rgb(170, 72, 72); /* Change the color to purple */
+    text-shadow: 2px 2px 5px #ccc; /* Add a text shadow */
+    text-transform: uppercase; /* Transform the text to uppercase */
+
+}
+nav {
+    background-color: #bfb7b7;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blue;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    background-color: #4f789c;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* General styles */
+section {
+    margin: 2em 0;
+    padding: 1em;
+}
+
+/* Box effect for headings */
+section h2 {
+    display: inline-block;
+    background-color: #5c89bc;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+/* Sliding effect for headings */
+section h2 {
+    position: relative;
+    display: inline-block;
+}
+
+section h2:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(66, 66, 73);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+section h2:hover:before {
+    transform: scaleX(1);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; /*Make the font bold */
+    font-family: Arial, sans-serif; /* Change the font to Arial */
+}
+p {
+    font-size: 1.2em; /* Change the font size */
+    font-weight: bold; /*Make the font bold */
+    color: rgb(8, 8, 8); /*Change the text color to blue */
+    line-height: 1.5; /* Increase the line-height */
+}
+
+/* Donate Section */
+#donate label {
+    font-size: 1.2em; /* Change the font size */
+    font-weight: bold; /*Make the font bold */
+    color: rgb(101, 99, 110); /*Change the text color to red */
+    display: block; /* Display the label in a block */
+}
+/* Contribute Section */
+#contribute label {
+    font-size: 1.2em; /* Change the font size */
+    font-weight: italic; /*Make the font bold */
+    color: rgb(2, 2, 2); /*Change the text color to red */
+    display: block; /* Display the label in a block */
+}
+/* Course Page */
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.course h3 {
+    margin-top: 0;
+}
+
+.course img {
+    max-width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .course {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+/* Books Page */
+#books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.books {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.books img {
+    max-width: 100%;
+}
+
+.books h3 {
+    margin: 0;
+}
+
+.books sp {
+    font-size: 0.8em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .books {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+/* Materials Page */
+#materials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.material img {
+    max-width: 100%;
+}
+
+.material h3 {
+    margin: 0;
+}
+
+.material p {
+    font-size: 0.8em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .material {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+/* Grid Layout */
+#books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #ccc;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.book img {
+    max-width: 100%;
+}
+
+.book h3 {
+    margin: 0;
+}
+
+.book p {
+    font-size: 0.8em;
+}
+
+/* Hover Effect */
+.book:hover .hidden {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Filtering/Search */
+#filter {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+#filter select {
+    margin-right: 1em;
+}
+
+#filter input {
+    margin-left: auto;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .book {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+
+/* Hidden description */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 2px 2px 5px #ccc;
+    z-index: 1;
+}
+/* Materials */
+#materials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #ccc;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.material img {
+    max-width: 100%;
+}
+
+.material h3 {
+    margin: 0;
+}
+
+.material p {
+    font-size: 0.8em;
+}
+
+/* Hover Effect */
+.material:hover .hidden {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Vibrant Colors */
+.material:hover {
+    background-color: #ffa600; /* Or any other color you want */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .material {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+
+/* Hidden description */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 2px 2px 5px #ccc;
+    z-index: 1;
+}
+#materials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#tags {
+    flex: 1;
+}
+
+#tags h3 {
+    margin-bottom: 10px;
+}
+
+#tags ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tags li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#tags a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+#tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tags a {
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 12px;
+    background-color: #dbb91f;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ddd;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.material {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.material img {
+    width: 100%;
+    height: auto;
+}
+
+.material h3 {
+    margin-top: 10px;
+}
+
+.material p {
+    margin: 5px 0;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.download, .feedback {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0088cc;
+    padding: 5px 10px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.pagination a.active {
+  background-color: #0088cc;
+  color: #fff;
+}
+
+/* Sorting */
+.sort-by {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sort-by label {
+    margin-right: 10px;
+  }
+  
+  .sort-by select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+  }
+  /*background*/
+  body {
+    background: linear-gradient(to right, #ffafbd, #f8965e);
+    }
+/* Booklists container */
+#booklists-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Individual booklist container */
+  .booklist {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    min-height: 150px;
+  }
+  
+  /* Booklist title */
+  .booklist h2 {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Books in booklist */
+  .booklist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual book in booklist */
+  .booklist li {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* View booklist button */
+  .view-booklist {
+    background: #005094;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* View booklist button hover effect */
+  .view-booklist:hover {
+    background: #004a87;
+  }

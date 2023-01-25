@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Books</title>
+    <link rel="stylesheet" href="app.css">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="co.html">Courses</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="material.html">Study Materials</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    
+    <h1>Books</h1>
+     <!-- Filtering/Search -->
+<div id="filter">
+  <label for="author">Filter by Author:</label>
+  <select id="author">
+    <option value="all">All</option>
+    <option value="johndoe">John Doe</option>
+    <option value="janesmith">Jane Smith</option>
+  </select>
+  <label for="publisher">Filter by Publisher:</label>
+  <select id="publisher">
+    <option value="all">All</option>
+    <option value="randomhouse">Random House</option>
+    <option value="penguin">Penguin Books</option>
+  </select>
+  <label for="genre">Filter by Genre:</label>
+  <select id="genre">
+    <option value="all">All</option>
+    <option value="fiction">Fiction</option>
+    <option value="nonfiction">Non-Fiction</option>
+  </select>
+  <input type="text" id="search" placeholder="Search...">
+</div>
+    <p>This is where you can find a list of books associated with each course.</p>
+    <ul>
+      <li>Book 1</li>
+      <li>Book 2</li>
+      <li>Book 3</li>
+    </ul>
+   
+  </body>
+  <!-- Grid Layout -->
+<div id="books">
+  <div class="book">
+    <img src="bg.png" alt="Book 1">
+    <h3>Book 1 Title</h3>
+    <p>Author: John Doe</p>
+    <p>Publisher: Random House</p>
+    <p>Genre: Fiction</p>
+    <p class="hidden">Short Description: This is a short description of book 1.</p>
+  </div>
+  <div class="book">
+    <img src="book2.jpg" alt="Book 2">
+    <h3>Book 2 Title</h3>
+    <p>Author: Jane Smith</p>
+    <p>Publisher: Penguin Books</p>
+    <p>Genre: Non-Fiction</p>
+    <p class="hidden">Short Description: This is a short description of book 2.</p>
+  </div>
+  <!-- Add more book elements here -->
+</div>
+<div id="booklists">
+  <h2>Booklists</h2>
+  <p>Create and share your own booklists with other users</p>
+  <button id="create-booklist">Create New Booklist</button>
+  <div id="booklists-container">
+    <!-- Booklist items -->
+    <div class="booklist">
+      <h3>Booklist 1</h3>
+      <p>Created by: John Doe</p>
+      <ul>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+      </ul>
+      <button class="view-booklist">View</button>
+    </div>
+    <div class="booklist">
+      <h3>Booklist 2</h3>
+      <p>Created by: Jane Smith</p>
+      <ul>
+        <li>Book 4</li>
+        <li>Book 5</li>
+        <li>Book 6</li>
+      </ul>
+      <button class="view-booklist">View</button>
+    </div>
+  </div>
+</div>
+
+</html> 
